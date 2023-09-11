@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+}
+/* Style each grid square with a default background color */
+.square {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff; /* Default background color */
+    transition: background-color 0.2s; /* Smooth transition for the hover effect */
+}
+
+/* Define the hover effect */
+.square:hover {
+    background-color: #ff5733; /* New background color on hover */
+}
